@@ -1,0 +1,12 @@
+program
+{
+int a;
+double b;
+a = 4;
+b = 4 *a;
+
+write a;
+write "\n";
+write b;
+
+}

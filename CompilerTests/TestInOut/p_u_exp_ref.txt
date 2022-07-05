@@ -1,0 +1,118 @@
+minus unarny
+-4
+-4.520000
+
+negacja bitowa
+-5
+
+negacja logiczna
+False
+
+rzutowanie na int
+4
+4
+1
+
+rzutowanie na double
+4.520000
+4.520000
+4.000000
+
+ | bitowe
+7
+ & bitowe
+2
+
+mnozenie dzielenie
+18
+3.250000
+0
+1.923077
+3.900000
+15.000000
+2.307692
+0.416667
+
+dodwanie odejmowanie
+9
+3.800000
+-3
+1.200000
+4.300000
+8.500000
+1.700000
+-3.500000
+
+porowniania intow  < > <= >=
+True
+False
+True
+False
+True
+False
+True
+False
+
+porowniania doubli  < > <= >=
+True
+False
+True
+False
+False
+True
+False
+True
+
+porowniania doubli i intow < > <= >=
+True
+False
+True
+False
+False
+False
+False
+False
+
+porowniania doubli i intow < > <= >= w druga strone
+False
+True
+False
+True
+True
+True
+True
+True
+
+porowniania doubli i intow == FALSZYWE
+False
+False
+False
+False
+
+porowniania doubli i intow == PRAWDZIWE
+True
+True
+True
+True
+
+porowniania doubli i intow != PRAWDZIWE
+True
+True
+True
+True
+
+porowniania doubli i intow != FALSZYWE
+False
+False
+False
+False
+
+opearatory logiczne
+True
+False
+True
+False
+True
+True
+False
+False

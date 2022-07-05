@@ -1,0 +1,13 @@
+program
+{
+write "Instructions only";
+write "\n";
+
+if( 3> 3)
+	write "### 3 is > 3";
+else
+{
+	write "### 3 is not < 3";
+}
+
+}

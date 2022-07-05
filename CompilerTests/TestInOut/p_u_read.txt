@@ -1,0 +1,69 @@
+program
+{
+	int a, b;
+	double c, d;
+	
+	read a;
+	write "a = ";
+	write a;
+	write "\n";
+	write "a_hex = ";
+	write a, hex;
+	write "\n";
+	
+	read b, hex;
+	write "b = ";
+	write b;
+	write "\n";
+	write "b_hex = ";
+	write b, hex;
+	write "\n";
+	write "b/2 = ";
+	write b/2;
+	write "\n";
+	
+	read b, hex;
+	write "b = ";
+	write b;
+	write "\n";
+	write "b_hex = ";
+	write b, hex;
+	write "\n";
+	write "b + 10  = ";
+	write b+10;
+	write "\n";
+	
+	read b, hex;
+	write "b = ";
+	write b;
+	write "\n";
+	write "b_hex = ";
+	write b, hex;
+	write "\n";
+	write "3*(b+10) + 2  = ";
+	write 3*(b+10) + 2;
+	write "\n";
+	
+	read c;
+	write "c = ";
+	write c;
+	write "\n";
+	
+	read d;
+	write "d = ";
+	write d;
+	write "\n";
+	
+	write "c + d = ";
+	write c+d;
+	write "\n";
+	
+	write "c / d = ";
+	write c/d;
+	write "\n";
+	
+	write "c * d + (double)a/b;= ";
+	write c * d + (double)a/b;
+	write "\n";
+	
+}

@@ -1,0 +1,42 @@
+///sdasd
+program
+{//adasd
+	//dasadasda
+	//asdasd//asdasd/asd
+    double d;
+	int i;
+	d = 1.3;
+	d = 123.123;
+	d = 0.12331;
+	d = 1.1200000000;
+	d = 0.0000000000001;
+	write d;
+	write "\n";
+	
+	i = 0; //
+	write i; // asdas
+	write "\n"; //asdasd
+	i = 0xF3;
+	write i;
+	write "\n";
+	i = 0xf3;
+	write i;
+	write "\n";
+	i = 0XF3;
+	write i;
+	write "\n";
+	i = 0Xf3;
+	write i;
+	write "\n";
+	i = 0X000000000f3;
+	write i;
+	write "\n";
+	
+	write i, hex;
+	write "\n";
+	
+	write "ala ma kotai psa ";
+	////ugiug
+	i;
+}//asdasd
+//asdasd

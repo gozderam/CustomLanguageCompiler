@@ -1,0 +1,28 @@
+program
+{
+	bool b;
+	int n, k;
+	n= 0;
+	k = 10;
+	b= false;
+	
+	while(n<5)
+	{
+		write n;
+		write "\n";
+		n = n+1;
+	}
+	
+	
+	while(!b)
+	{
+		write k;
+		write "\n";
+		k = k-1;
+		if(k<=0)
+			b = true;
+	}
+	
+	while(!b)
+	{ } 
+}

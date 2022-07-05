@@ -1,0 +1,55 @@
+program
+{
+int a, b, c;
+double k, l, m;
+bool p, q, r;
+
+p = false;
+q = !p;
+r = !!!!!!!!!!!p;
+
+write "p = ";
+write p;
+write "\n";
+
+write "q = ";
+write q;
+write "\n";
+
+write "r = ";
+write r;
+write "\n";
+
+if( 		q    && r)
+k = 3.565;
+else
+k = 10;
+write "k = ";
+write k;
+write "\n";
+
+l = k + 10;
+write "l = ";
+write l;
+write "\n";
+
+l = (int)k * 3;
+write "l = ";
+write l;
+write "\n";
+
+write "(int)l = ";
+write (int)l;
+write "\n";
+
+l = 10;
+c = 40;
+l = (2 + (int)k + 2.4 * 5.4)
+* (10/3 +1.00053200000) + ~3 -(-~--4) + 		-6 + (2012 + 32) * ((32 -123   + 1&41) /4.90)
++ (int)(3123>10*12/-13.9 || q  || 4*12 >= c*2+453 || !!!!!!r && (p || 12!=13)) * (int)(64|42) /12.02 + ((((2)))) 
+				+ (double)12/5 + (double)(int)(double)(int)(5*6<=4) + (int)(10000<123.23);
+write "l = ";
+write l;
+write "\n";
+
+}

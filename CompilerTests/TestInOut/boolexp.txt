@@ -1,0 +1,21 @@
+program 
+{
+bool b;
+bool c, d, e, f, g;
+b = true;
+c = false;
+d =     !b;
+e = b || c|| d || (b&&c);
+f = b && c && e;
+g = !!b && !c && e;
+write b;
+write c;
+write "\n";
+write d;
+write "\n";
+write e;
+write "\n";
+write f;
+write "\n";
+write g;
+}

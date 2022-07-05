@@ -1,0 +1,90 @@
+program
+{
+	bool a, b, c;
+	int k, l;
+	double w, x;
+	k = 10;
+	l=5;
+	a = true;
+	b = false;
+	c = a || b;
+	w = k/l;
+	x = w * 2.5;
+	
+	if(k>3)
+	{ }
+	else 
+	{ }
+	
+	if(l<1000)
+	{ }
+	
+	if(a || b || c)
+		write x;
+	else
+		write x + 1;
+	
+	
+	if(!(a || b || c))
+		write x;
+	else
+		write x + 1;
+		
+	if(a || b || c)
+	{
+		write x;
+	}
+	else
+		write x + 1;
+		
+	if(!(a || b || c))
+	{
+		write x;
+	}
+	else
+		write x + 1;
+	
+	
+	if(a || b || c)
+		write x;
+	else
+	{
+		write x + 1;
+	}
+	
+	if(!(a || b || c))
+		write x;
+	else
+	{
+		write x + 1;
+	}
+	
+	if(a || b || c)
+	{
+		write x;
+	}
+	else
+	{
+		write x + 1;
+	}
+	
+	if(!(a || b || c))
+	{
+		write x;
+	}
+	else
+	{
+		write x + 1;
+	}
+	
+	if(a)
+	{
+		w = 10*w;
+		w = w/2;
+		w = (int)(a == !b);
+		write "\n";
+		write "w is: ";
+		write w;
+	}
+	
+}

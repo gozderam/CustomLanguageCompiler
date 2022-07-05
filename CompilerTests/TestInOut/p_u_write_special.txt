@@ -1,0 +1,35 @@
+program
+{
+write "";
+write "\n";
+write "\n";
+write "\"";
+write "\n";
+write "\\";
+write "\n";
+write "\\\\";
+write "\n";
+write "\\\\\"\n\"\\";
+write "\n";
+write "\\\r\w\\\k\d\\\\\"\n\"\\";
+write "\n";
+write "\r\w\p\h\k\r";
+write "\n";
+write "\r\w\p\h\k\r\\";
+write "\n";
+write "\\\r\w\pikiki\h\k\r\\";
+write "\n";
+write "aaaa";
+write "\n";
+write "ala\nma\nkota\n";
+write "a\\na";
+write "\n";
+write "aaa\r\\nasdasd";
+write "\n";
+write "ss\\";
+write "\n";
+
+write "ss\\\nk";
+write "\n";
+
+}

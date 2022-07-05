@@ -1,0 +1,113 @@
+program
+{
+
+int a;
+int b;
+int qa;
+int qb;
+int qc;
+double c;
+bool d, dd;
+double e, f;
+
+a = 0xf32;
+write a;
+write "\n";
+write a, hex;
+write "\n";
+
+b = 5343;
+write b;
+write "\n";
+write b, hex;
+write "\n";
+
+c = 4.32;
+e = 2* c;
+f = 123;
+write c;
+write "\n";
+write e;
+write "\n";
+write f;
+write "\n";
+
+d = true;
+write d;
+write "\n";
+d = false;
+write d;
+write "\n";
+
+
+
+write true;
+write "\n";
+write false;
+write "\n";
+write !false;
+write "\n";
+write !true;
+write "\n";
+write true || false || true && false || (true && true && true || false);
+write "\n";
+write "\n";
+
+write (int)true;
+write "\n";
+write (int)false;
+write "\n";
+write "\n";
+
+write 0;
+write "\n";
+write 0.0;
+write "\n";
+write 0, hex;
+write "\n";
+write "\n";
+
+write (double)5;
+write "\n";
+write (double)5.5454;
+write "\n";
+write (int)5;
+write "\n";
+write (int)5.53;
+write "\n";
+write "\n";
+
+write 4+6+3+3;
+write "\n";
+write (4+3)*(1+3*(3+1));
+write "\n";
+write 4/3;
+write "\n";
+write 4.0/3;
+write "\n";
+write ~4;
+write "\n";
+write 432, hex;
+write "\n";
+write 0x431, hex;
+write "\n";
+write 0Xfdc3;
+write "\n";
+write 0Xfdc3,     hex;
+write "\n";
+write "\n";
+
+write a = b = 5;
+write "\n";
+write c = e = f = 4.3333;
+write "\n";
+write d = dd = false;
+write "\n";
+write "\n";
+
+write qa = qb = 5;
+write "\n";
+qb = 10;
+write qc = qa = qb*10;
+
+}
